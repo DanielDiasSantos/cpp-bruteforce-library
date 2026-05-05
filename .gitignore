@@ -1,0 +1,15 @@
+# Build files
+build/
+
+# Compiled executables
+*.exe
+*.o
+*.a
+*.dll
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
