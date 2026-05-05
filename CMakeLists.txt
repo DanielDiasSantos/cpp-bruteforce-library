@@ -25,4 +25,3 @@ target_compile_options(bruteforce PRIVATE
 add_executable(test_bruteforce tests/test_main.cpp)
 target_link_libraries(test_bruteforce PRIVATE bruteforce)
 
-file(COPY ${CMAKE_SOURCE_DIR}/data DESTINATION ${CMAKE_BINARY_DIR})
